@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Mantenimiento en máquinas de confección',
+    Description:
+      'Describir las piezas y mecanismos que conforman las máquinas y su funcionamiento. Identificar el tipo de puntada de cada máquina según las Normas Internacionales de Estandarización ISO 4915, así mismo los diferentes tipos de costuras bajo la norma ISO 4916. Diagnosticar fallas que afectan la calidad de la costura y establecer la importancia de mantenimientos autónomos y necesidades de capacitación. Seleccionar la solución adecuada según la falla presentada en la costura, de acuerdo con el nivel de problema presentado. Integrar la importancia del plan de mantenimiento en los objetivos de mejora continua de la empresa.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,28 +32,50 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Partes de la maquinaria de confección',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Partes, mecanismos y funciones de las máquinas de confección',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Mecanismos de las máquinas de confección industrial',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Clasificación de puntadas y costuras',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Mantenimiento máquinas de confección',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Partes, mecanismos y funciones de las máquinas de confección',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Plan de mantenimiento',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Herramientas de confección',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -105,8 +128,39 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Control visual',
+      significado:
+        'técnica de comunicación donde la información se transmite por medio de señales en los que se utilice el sentido de la vista, con el fin de controlar algún proceso. También conocido como Andón, en japones traduce lámpara.',
+    },
+    {
+      termino: '<em>Kaizen</em>',
+      significado:
+        'palabra formada por dos vocablos japoneses, cambio y bueno, significa mejora continua, actividades que se desarrollan con el propósito de perfeccionar cada vez más los procesos en la empresa.',
+    },
+    {
+      termino: '<em>Kanban</em>',
+      significado:
+        'en japonés traduce tarjetas visuales. Técnica de comunicación en la que se usan tarjetas para informar sobre las actividades de mantenimiento y en los demás procesos de la empresa.',
+    },
+    {
+      termino: 'Mantenimiento autónomo',
+      significado:
+        'actividades sencillas que requieren de poco entrenamiento y pueden ser desarrolladas por el operario de la máquina, para prevenir la aparición de fallas en las máquinas y equipos.',
+    },
+    {
+      termino: '<em>SMED</em>',
+      significado:
+        'del inglés Single Minute Exchange of Die, es decir, el cambio de una herramienta o equipo, en un solo digito de tiempo.',
+    },
+    {
+      termino: 'Tiempos muertos',
+      significado:
+        'lapso en el cual el personal no realiza ninguna operación en producción.',
+    },
+    {
+      termino: 'Tomador de lazada',
+      significado:
+        'elemento mecánico que junto con la aguja se encarga de formar la puntada. Estos elementos son auxiliados algunas veces en la formación de la puntada por otros elementos mecánicos.',
     },
   ],
   referencias: [
