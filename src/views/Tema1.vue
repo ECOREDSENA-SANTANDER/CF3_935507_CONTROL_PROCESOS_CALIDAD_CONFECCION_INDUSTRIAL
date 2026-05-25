@@ -27,7 +27,7 @@
           | Partes de las máquinas de confección
         .bg1.p-lg-5.p-md-4.p-3.mb-0
           .row.justify-content-center.align-items-center
-            .col-lg-7
+            .col-lg-7.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/2.svg', alt='Este diagrama detalla los componentes internos y el funcionamiento mecánico de una máquina de coser industrial. La ilustración muestra la interconexión entre el árbol superior e inferior a través de un eje vertical y un sistema de piñones, permitiendo la sincronización entre el tirahílos, la barra de agujas en la cabeza y el movimiento del garfio y los dientes de arrastre en la base. El esquema identifica piezas clave como el volante, la biela, el cigüeñal y los diversos ejes que transmiten el movimiento rotativo y lineal necesario para el proceso de costura.')
             .col-lg-5
               .row.justify-content-center.align-items-start.mb-0
@@ -168,7 +168,7 @@
           | Mecanismo de arrastre
         .bg3.p-lg-5.p-md-4.p-3.mb-0
           .row.justify-content-center.align-items-center
-            .col-lg-7
+            .col-lg-7.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/10.png', alt='Diagrama circular con un nodo central titulado “MOVIMIENTOS DE ARRASTRE”, que ilustra la secuencia de cuatro movimientos (A, B, C, D) del mecanismo de arrastre de una máquina de coser. Cada uno de los cuatro nodos periféricos muestra un diagrama lineal de la posición de los dientes de arrastre y un texto explicativo sobre su función en el ciclo de costura.')
             .col-lg-4
               p.mb-5 #[b Movimiento A:] los dientes de arrastre sobresalen por encima de la placa, enganchando el tejido y tirando de él en el sentido de su orientación.
