@@ -8,11 +8,11 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center.mb-0         
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")         
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/intro/1.png', alt='')
       .col-lg-7
-        .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.mb-3
           .col-lg-2.col-md-2.col-5
             img.mb-lg-0.mb-md-0.mb-4.img-t.img-a(src='@/assets/curso/intro/2.svg')
           .col-lg-10.col-md-10

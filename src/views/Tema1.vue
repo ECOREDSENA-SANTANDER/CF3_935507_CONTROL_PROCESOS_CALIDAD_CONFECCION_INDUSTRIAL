@@ -7,18 +7,18 @@
         span 1
       h1 Partes de la maquinaria de confección
     
-    .row.justify-content-center.align-items-center.mb-5        
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")        
       .col-lg-12
         img(src='@/assets/curso/tema1/1.png', alt='')
     
-    p.mb-0 En relación con el avance en tecnología, se han desarrollado piezas electromecánicas y electrónicas, lo cual diferencia cada máquina en su funcionamiento, así como en el mantenimiento requerido.
+    p.mb-0(data-aos="fade-left") En relación con el avance en tecnología, se han desarrollado piezas electromecánicas y electrónicas, lo cual diferencia cada máquina en su funcionamiento, así como en el mantenimiento requerido.
     
 
     separador
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Partes, mecanismos y funciones de las máquinas de confección
     
-    p.mb-4 Las partes de las máquinas están compuestas por piezas que junto con otros mecanismos realizan funciones específicas. Es necesario identificar las piezas mecánicas para entender el funcionamiento de los mecanismos y detectar los daños en las máquinas.
+    p.mb-4(data-aos="fade-right") Las partes de las máquinas están compuestas por piezas que junto con otros mecanismos realizan funciones específicas. Es necesario identificar las piezas mecánicas para entender el funcionamiento de los mecanismos y detectar los daños en las máquinas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -62,9 +62,9 @@
                   p.mb-0 35. Piñones
                   p.mb-0 36. Piñones
     
-    p.mb-4 Las funciones de algunas partes que componen los mecanismos de las máquinas son:
+    p.mb-4(data-aos="fade-right") Las funciones de algunas partes que componen los mecanismos de las máquinas son:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema1/3.png', alt='')
       .col-lg-6
@@ -119,7 +119,7 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Mecanismos de las máquinas de confección industrial
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/5.png', alt='')
       .col-lg-9
@@ -135,7 +135,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mecanismo sistema tensor
 
-    .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
+    .row.justify-content-center.align-items-center(data-aos="fade-left").mb-5
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
@@ -148,9 +148,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mecanismo de arrastre
 
-    .row.justify-content-center.align-items-center.mb-4       
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")    
       .col-lg-7
-        .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
+        .row.justify-content-center.align-items-center.mb-3
           .col-lg-2.col-md-2.col-5
             img.mb-lg-0.mb-md-0.mb-4.img-t.img-a(src='@/assets/curso/tema1/9.svg', alt='')
           .col-lg-10.col-md-10
@@ -159,7 +159,7 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/8.png', alt='')
     
-    p.mb-5 Los dientes en su movimiento deben sobresalir de la planchuela, haciendo juego con la misma, se deben graduar la altura según el material u operación. En consecuencia, al no estar bien sujetos por medio de los tornillos, no se desliza el material, esto se debe tener en cuenta en la revisión para si es el caso, ajustarlos.
+    p.mb-5(data-aos="fade-right") Los dientes en su movimiento deben sobresalir de la planchuela, haciendo juego con la misma, se deben graduar la altura según el material u operación. En consecuencia, al no estar bien sujetos por medio de los tornillos, no se desliza el material, esto se debe tener en cuenta en la revisión para si es el caso, ajustarlos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -177,17 +177,17 @@
               p.mb-0 #[b Movimiento D:] después de C, los dientes vuelven a subir y sobresalir de la placa, como al principio de A, recomenzando el movimiento A. Se repite sucesivamente.
         figcaption Fuente: Manual corte y confección, CIDEP (2012)
     
-    p.mb-5 Las partes de los pies prensa telas son: vástago, zapatilla, talón, dedos y pasador; dependiendo de la máquina pueden tener resortes y protectores de dedos, además podemos mencionar en el caso de la máquina plana que existen diversos tipos de pie y su utilización depende de la operación a desarrollar; en el caso del pie universal debe ser acorde con el tipo de material que se trabaja. Generalmente el material utilizado en los pies es acero templado.
+    p.mb-5(data-aos="fade-right") Las partes de los pies prensa telas son: vástago, zapatilla, talón, dedos y pasador; dependiendo de la máquina pueden tener resortes y protectores de dedos, además podemos mencionar en el caso de la máquina plana que existen diversos tipos de pie y su utilización depende de la operación a desarrollar; en el caso del pie universal debe ser acorde con el tipo de material que se trabaja. Generalmente el material utilizado en los pies es acero templado.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mecanismo de formación de lazada
 
-    p.mb-4 Cada pieza o mecanismo de las máquinas puede reemplazarse, pero debe tener cuidado en el mercado, según la disponibilidad puede encontrar piezas originales de la marca de la máquina o encontrar los llamados genéricos que inciden en su precio y calidad en términos de vida útil.
+    p.mb-4(data-aos="fade-right") Cada pieza o mecanismo de las máquinas puede reemplazarse, pero debe tener cuidado en el mercado, según la disponibilidad puede encontrar piezas originales de la marca de la máquina o encontrar los llamados genéricos que inciden en su precio y calidad en términos de vida útil.
 
-    p.mb-4 Los mecanismos tomadores de lazada se describen en el manual técnico y estos son:
+    p.mb-4(data-aos="fade-left") Los mecanismos tomadores de lazada se describen en el manual técnico y estos son:
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png', alt='')
       .col-lg-9
@@ -228,7 +228,7 @@
     #t_1_3.titulo-segundo.mb-5
       h2 1.3 Clasificación de puntadas y costuras
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         p.mb-4 Se suele confundir el término puntada y costura, pero se debe tener en cuenta la diferencia; se habla de la puntada como el resultado del enlace de los hilos, y la costura consiste en varias puntadas en un material o puede ser para unir dos o más materiales.
         .bg4.p-4.p-lg-5
@@ -240,7 +240,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Clasificación serie de puntadas ISO 4915
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/13.png', alt='')
       .col-lg-9
@@ -252,7 +252,7 @@
               p.mb-0.text-white.mx-lg-4.mt-lg-3.mb-lg-3 Esta norma internacional clasifica, designa, describe e ilustra las diversas puntadas que se utilizan en las costuras cosidas a mano y a máquina, lo que facilita su identificación en los diversos tipos de producción general y enfocada a la industria de la moda. Esta norma tiene el equivalente militar que es el Federal Standar 7515-a el cual define los estándares para la fabricación de uniformes militares y el estándar ASTM D6193 que define el estándar para la confección de prendas industriales.
         p.mb-0.mt1 En esta norma las diferentes puntadas se agruparon en series por centena según correspondía a la formación de lazada, y a cada puntada en particular le corresponde un consecutivo.
 
-    .cont_5_1.mt-4(data-aos="fade-left").mb-4
+    .cont_5_1.mt-4(data-aos="fade-right").mb-4
       .row.justify-content-center
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
@@ -334,7 +334,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Clasificación de costuras ISO 4916
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         p.mb-4 Esta norma clasifica e ilustra las secciones trasversales de los materiales y clasifica los tipos de costuras cosidas; es necesario consultar esta norma junto con la ISO 4915.
         .bg6.p-4.p-lg-4
@@ -342,10 +342,10 @@
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema1/21.svg' alt='AvatarTop')
     
-    .ti.p-2.mb-5(data-aos="fade-left")
+    .ti.p-2.mb-5(data-aos="fade-right")
       h4.mb-0.pe-3.ps-3 Tipos de costuras clasificadas
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         SlyderF(columnas="col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b1.p-4

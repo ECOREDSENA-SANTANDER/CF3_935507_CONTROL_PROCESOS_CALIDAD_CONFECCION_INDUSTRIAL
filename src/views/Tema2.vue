@@ -7,26 +7,26 @@
         span 2
       h1 Mantenimiento máquinas de confección
 
-    .row.justify-content-center.align-items-center.mb-5        
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")       
       .col-lg-12
         img(src='@/assets/curso/tema2/1.png', alt='')
 
-    p.mb-4 La metodología Mantenimiento Productivo Total (TPM), busca en pro del trabajo en equipo, procesos cada vez más automatizados, mediante la articulación y participación en las actividades de mantenimiento, en donde el operario de la maquinaria sea corresponsable del mantenimiento, además de las personas que intervienen en el proceso productivo como supervisores, inspectores de calidad, jefe de planta, con el fin de mejorar la efectividad de todos los equipos y disminuir tiempos muertos relacionados en la operación de las máquinas.
+    p.mb-4(data-aos="fade-left") La metodología Mantenimiento Productivo Total (TPM), busca en pro del trabajo en equipo, procesos cada vez más automatizados, mediante la articulación y participación en las actividades de mantenimiento, en donde el operario de la maquinaria sea corresponsable del mantenimiento, además de las personas que intervienen en el proceso productivo como supervisores, inspectores de calidad, jefe de planta, con el fin de mejorar la efectividad de todos los equipos y disminuir tiempos muertos relacionados en la operación de las máquinas.
 
-    p.mb-0 Las metas en el mantenimiento son de cero paros, cero fallas y cero accidentes. La tarea del mantenimiento no es solo corregir la falla sino descubrir anormalidades que no son visibles para que sea total.
+    p.mb-0(data-aos="fade-right") Las metas en el mantenimiento son de cero paros, cero fallas y cero accidentes. La tarea del mantenimiento no es solo corregir la falla sino descubrir anormalidades que no son visibles para que sea total.
 
 
     separador
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Partes, mecanismos y funciones de las máquinas de confección
     
-    p.mb-5 Es posible establecer diferentes clasificaciones de acuerdo con la función y etapa que cumpla dentro del proceso productivo:
+    p.mb-5(data-aos="fade-left") Es posible establecer diferentes clasificaciones de acuerdo con la función y etapa que cumpla dentro del proceso productivo:
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mantenimiento correctivo
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
         p.mb-4 El mantenimiento correctivo es el que se realiza durante el proceso de producción y a corto plazo, da una solución en el mínimo de tiempo y la máquina sigue trabajando.
         .bg7.p-4.p-lg-5
@@ -34,7 +34,7 @@
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
     
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/3.png', alt='')
       .col-lg-9
@@ -46,11 +46,11 @@
               p.mb-0.text-white Las causas pueden ser ocasionadas por fallas del equipo, en la preparación y ajuste de la maquinaria, el trabajo en vacío o paros menores, velocidad reducida, defectos en el proceso de confección y pérdidas por arranque.
         p.mb-0.mt2 Las actividades complejas de mantenimiento con cierto grado de dificultad, necesarias para corregir la falla son realizadas por el equipo especializado en mantenimiento. Algunas de las correcciones más comunes son la sincronización de los tiempos en las máquinas, el ajuste de la altura de dientes, el ajuste de la altura de la barra, el cambio de piezas como el gancho rotatorio, loopers, barras de pie prénsatela o aguja y sistema tensor.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mantenimiento preventivo
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.t22
           h5 Tabla 1.
@@ -118,9 +118,9 @@
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Plan de mantenimiento
 
-    p.mb-4 La gestión e implementación organizada del mantenimiento contribuye directamente en la calidad de la producción. Así mismo, reduce los costos de mantenimiento. Se requiere planear el mantenimiento con el fin de garantizar el 100% de la disponibilidad de máquinas, equipos y plantas.
+    p.mb-4(data-aos="fade-right") La gestión e implementación organizada del mantenimiento contribuye directamente en la calidad de la producción. Así mismo, reduce los costos de mantenimiento. Se requiere planear el mantenimiento con el fin de garantizar el 100% de la disponibilidad de máquinas, equipos y plantas.
 
-    p.mb-4 Los objetivos del plan de mantenimiento son:
+    p.mb-4(data-aos="fade-left") Los objetivos del plan de mantenimiento son:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-12
@@ -146,7 +146,7 @@
                 .h2 4
               p.text-center.mx-3 Enfocar al equipo de mantenimiento en las actividades especializadas.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
       .col-lg-8
@@ -154,9 +154,9 @@
         .bg9.p-4.p-lg-5
           p.mb-0.mx-lg-2 Aclarado lo anterior se necesitaron unas normas para concertar a nivel mundial los diferentes tipos de puntadas y costuras, identificando por medio de letras o de números según cada norma, lo cual facilita la comprensión de la ficha técnica de una máquina o de un producto en cualquier parte del mundo.
       
-    p.mb-4 Los pasos que comprende el plan de mantenimiento se encuentran especificados a continuación, debe tenerse en cuenta que una vez se cumplen se evalúan y vuelve a iniciar su proceso:
+    p.mb-4(data-aos="fade-right") Los pasos que comprende el plan de mantenimiento se encuentran especificados a continuación, debe tenerse en cuenta que una vez se cumplen se evalúan y vuelve a iniciar su proceso:
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-12
         ol.lista-ol--cuadro.lista-ol--separador
           li.d-flex
@@ -193,9 +193,9 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Herramientas de confección
 
-    p.mb-4 La selección y usos de las herramientas están directamente relacionadas con el diseño de los mecanismos y piezas de las máquinas y sus características como formas, tamaño y función.
+    p.mb-4(data-aos="fade-right") La selección y usos de las herramientas están directamente relacionadas con el diseño de los mecanismos y piezas de las máquinas y sus características como formas, tamaño y función.
 
-    p.mb-4 Se pueden agrupar las herramientas en áreas según su utilidad, como se observa a continuación:
+    p.mb-4(data-aos="fade-left") Se pueden agrupar las herramientas en áreas según su utilidad, como se observa a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.d-none.d-lg-block
@@ -249,7 +249,7 @@
                     i.fas.fa-bolt
                     p.mb-0 #[b Pulidor:] es una tijera ergonómica para cortar los hilos al retirar la pieza una vez se realice la costura.
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-8
         .bg10.p-4.p-lg-5
           h3.mb-4.mx-lg-4 Área de confección
@@ -268,6 +268,7 @@
               p.mb-0 #[b Llaves boca fija.]
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/10.png', alt='')
+
 
 </template>
 
