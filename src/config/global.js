@@ -190,15 +190,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Experta temática',
+          nombre: 'Rafael Nelftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Equipo de Adecuación Gráfica y Didáctica de Recursos Educativos - Regional Risaralda',
+            'CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Sandra Cecilia Gutiérrez',
+          cargo: 'Experta temática',
+          centro:
+            'CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA - Regional Santander',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Gestión Empresarial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Oscar Andrés Fernández Urrego',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica – CENIGRAF - Regional Bogotá',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -216,7 +234,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -226,12 +244,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
