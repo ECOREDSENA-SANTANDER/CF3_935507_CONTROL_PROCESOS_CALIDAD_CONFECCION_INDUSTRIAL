@@ -257,7 +257,7 @@
           ul.lista-ul.mb-0.mx-lg-4
             li.d-flex.mb-3
               i.fas.fa-bolt
-              p.mb-0 #[b Destornilladores de pala:] la parte de la pala debe estar acorde a la medida del tornillo a trabajar, hablamos de pala media para soltar tornillo de barra de pie prénsatela o de soporte de aguja y de pala pequeño para trabajar el tornillo de la caja bobina.
+              p.mb-0 #[b Destornilladores de pala:] la parte de la pala debe estar acorde a la medida del tornillo a trabajar, hablamos de pala media para soltar tornillo de barra de pie prensatela o de soporte de aguja y de pala pequeño para trabajar el tornillo de la caja bobina.
             li.d-flex.mb-3
               i.fas.fa-bolt
               p.mb-0 #[b Destornilladores tipo #[em bristol] con medidas de 1/16” o 1,6 mm:] especiales para los tornillos sujetadores de aguja de fileteadora, recubridora, cerradora entre otras.

@@ -149,7 +149,7 @@ export default {
     {
       termino: '<em>SMED</em>',
       significado:
-        'del inglés <em>Single Minute Exchange of Die</em>, es decir, el cambio de una herramienta o equipo, en un solo digito de tiempo.',
+        'del inglés <em>Single Minute Exchange of Die</em>, es decir, el cambio de una herramienta o equipo, en un solo dígito de tiempo.',
     },
     {
       termino: 'Tiempos muertos',
@@ -165,52 +165,48 @@ export default {
   referencias: [
     {
       referencia:
-        'Alfaomega (2009). Mantenimiento, planeación, ejecución y control.',
-      link:
-        'https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/mantenimiento-planeacion-ejecucion-y-control?location=2',
-    },
-    {
-      referencia: 'American & Efrird, Inc. (2009) Stich Type Matrix Spanish.',
-      link:
-        'http://www.amefird.com/wp-content/uploads/2009/10/Stitch-Type-Matrix-Spanish.pdf',
-    },
-    {
-      referencia:
-        'Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5s, SMED y Poka Yoke en procesos de mejoramiento continuo. Tecnura, 10(20), 139-148.',
-      link: 'https://doi.org/10.14483/22487638.6255',
-    },
-    {
-      referencia:
-        'Barretto. (s.f.) Técnicas de indumentaria I -Puntadas y pespuntes. Facultad de arquitectura, diseño y urbanismo. Argentina.',
-      link:
-        'http://cursos.fadu.uba.ar/apuntes/Indumentaria%20I/unidad%20teorica%20n%204/18%20-tecnologia%20del%20sector%20costura%201%20Puntadas%20y%20pespuntes.pdf',
-    },
-    {
-      referencia: 'Carvajal, F. (2012) Manual Técnico.',
+        'lfaomega. (2009). Mantenimiento, planeación, ejecución y control.',
       link: '',
     },
     {
-      referencia: 'CIDEP (2012) Manual de Corte y Confección.',
+      referencia: 'American & Efird, Inc. (2009). Stitch Type Matrix Spanish.',
       link: '',
     },
     {
       referencia:
-        'Espin, F. (2013). Técnica SMED Reducción del tiempo preparación. 3Ciencias.',
-      link:
-        'https://www.3ciencias.com/wp-content/uploads/2013/05/TECNICA-SMED.pdf',
+        'Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5S, SMED y Poka-Yoke en procesos de mejoramiento continuo. Tecnura, 10(20), 139-148.',
+      link: '',
     },
     {
       referencia:
-        'Rápida Suministros Industriales, (s.f.) Recambios y accesorios',
-      link: 'http://www.rapida.com/otros-guantes-alfileres-pesas.html',
+        'Barretto. (s.f.). Técnicas de indumentaria I: Puntadas y pespuntes. Facultad de Arquitectura, Diseño y Urbanismo.',
+      link: '',
     },
     {
-      referencia: 'SENA (1982), Las puntadas.',
-      link: 'https://hdl.handle.net/11404/3998',
+      referencia: 'Carvajal, F. (2012). Manual técnico. SENA.',
+      link: '',
+    },
+    {
+      referencia: 'CIDEP. (2012). Manual de corte y confección.',
+      link: '',
     },
     {
       referencia:
-        'Villegas, O., et al (2018, octubre 24 -26). Como el mantenimiento productivo total (TPM) te ayuda a mejorar la productividad. Congreso Internacional de Investigación Academia Journals. Los Mochis, Sinaloa, México.',
+        'Espin, F. (2013). Técnica SMED: Reducción del tiempo de preparación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rápida Suministros Industriales. (s.f.). Recambios y accesorios.',
+      link: '',
+    },
+    {
+      referencia: 'SENA. (1982). Las puntadas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Villegas, O., et al. (2018). Cómo el mantenimiento productivo total (TPM) ayuda a mejorar la productividad. Congreso Internacional de Investigación Academia Journals, Los Mochis, Sinaloa, México.',
       link: '',
     },
   ],
