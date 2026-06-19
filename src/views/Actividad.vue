@@ -389,7 +389,7 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Volante.', esCorrecta: false },
-            { id: 'b', texto: 'Looper.', esCorrecta: true },
+            { id: 'b', texto: '<em>Looper</em>.', esCorrecta: true },
             { id: 'c', texto: 'Piqueteadora.', esCorrecta: false },
             { id: 'd', texto: 'Papel manifold.', esCorrecta: false },
           ],

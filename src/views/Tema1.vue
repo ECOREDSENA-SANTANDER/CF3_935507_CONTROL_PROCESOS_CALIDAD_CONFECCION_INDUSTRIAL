@@ -71,7 +71,7 @@
         LineaTiempoD.color-secundario.activo
           .row.justify-content-center.align-items-center.mb-0(numero="1" titulo="Árbol")
             .col-lg-12
-              p.mb-0 Elemento mecánico que toma y trasfiere movimiento girando sobre sí mismo, en revoluciones completas.
+              p.mb-0 Elemento mecánico que toma y transfiere movimiento girando sobre sí mismo, en revoluciones completas.
           .row.justify-content-center.align-items-center.mb-0(numero="2" titulo="Barra")
             .col-lg-12
               p.mb-0 Elemento mecánico que toma y transfiere movimiento sin girar, trabaja en sentido rectilíneo; según su forma puede ser, cuadrada, circular, rectangular, entre otras.
@@ -95,7 +95,7 @@
               p.mb-0 Elemento mecánico en forma de rueda dentada, el cual se emplea para transferir movimiento circular mediante otros elementos. El piñón puede ser pequeño y se engrana con un piñón más grande.
           .row.justify-content-center.align-items-center.mb-0(numero="9" titulo="Polea")
             .col-lg-12
-              p.mb-0 Rueda plana o acanalada que dependiendo de la función requerida puede ser fijo o móvil hacia un eje o árbol.
+              p.mb-0 Rueda plana o acanalada que, dependiendo de la función requerida, puede ser fija o móvil, montada sobre un eje o árbol.
           .row.justify-content-center.align-items-center.mb-0(numero="10" titulo="Volante")
             .col-lg-12
               p.mb-0 Rueda cuyo movimiento puede activarse con las manos para mover un mecanismo, controlar una máquina. Fijado al extremo casi siempre de un árbol para controlar su movimiento.
@@ -155,7 +155,7 @@
             img.mb-lg-0.mb-md-0.mb-4.img-t.img-a(src='@/assets/curso/tema1/9.svg', alt='')
           .col-lg-10.col-md-10
             p.mb-0 El movimiento de vaivén del mecanismo es una combinación en sentido vertical y horizontal, producido por los ejes y el cigüeñal unidos por dos bielas. El mecanismo además está conformado por diente, pie, planchuela y soporte de dientes.
-        p.mb-0 En el caso de la planchuela debe estar libre de asperezas y obstrucciones para poder realizar la costura, debe tener aberturas para que pueda mover los dientes, y una abertura en forma redonda u ovalada según el tipo de puntada para que pase la aguja hacia el formador de lazada, el cual debe pasar sin rosar el borde de la abertura, además, se debe revisar que los bordes no tengan asperezas o rebordes cortantes para no afectar la formación de la puntada, produciendo deterioro en la aguja y por tanto de la costura o el material que se está trabajando.
+        p.mb-0 En el caso de la planchuela debe estar libre de asperezas y obstrucciones para poder realizar la costura, debe tener aberturas para que pueda mover los dientes, y una abertura en forma redonda u ovalada según el tipo de puntada para que pase la aguja hacia el formador de lazada, el cual debe pasar sin rozar el borde de la abertura, además, se debe revisar que los bordes no tengan asperezas o rebordes cortantes para no afectar la formación de la puntada, produciendo deterioro en la aguja y por tanto de la costura o el material que se está trabajando.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/8.png', alt='')
     
@@ -169,7 +169,7 @@
         .bg3.p-lg-5.p-md-4.p-3.mb-0
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-lg-0.mb-4
-              img(src='@/assets/curso/tema1/10.png', alt='Diagrama circular con un nodo central titulado “MOVIMIENTOS DE ARRASTRE”, que ilustra la secuencia de cuatro movimientos (A, B, C, D) del mecanismo de arrastre de una máquina de coser. Cada uno de los cuatro nodos periféricos muestra un diagrama lineal de la posición de los dientes de arrastre y un texto explicativo sobre su función en el ciclo de costura.')
+              img(src='@/assets/curso/tema1/10.png', alt='Diagrama del mecanismo de arrastre en una máquina de confección. Muestra el ciclo de movimiento de los dientes de arrastre en cuatro etapas: A) sobresalen de la placa y desplazan la tela hacia adelante; B) descienden por debajo de la placa al finalizar el avance; C) regresan a su posición inicial por debajo de la placa; y D) vuelven a elevarse para iniciar un nuevo ciclo de arrastre.')
             .col-lg-4
               p.mb-5 #[b Movimiento A:] los dientes de arrastre sobresalen por encima de la placa, enganchando el tejido y tirando de él en el sentido de su orientación.
               p.mb-5 #[b Movimiento B:] cuando ha avanzado el largo de una puntada, los dientes descienden bajo la placa, soltando el tejido que arrastraron en el movimiento A
@@ -177,7 +177,7 @@
               p.mb-0 #[b Movimiento D:] después de C, los dientes vuelven a subir y sobresalir de la placa, como al principio de A, recomenzando el movimiento A. Se repite sucesivamente.
         figcaption Fuente: Manual corte y confección, CIDEP (2012)
     
-    p.mb-5(data-aos="fade-right") Las partes de los pies prensa telas son: vástago, zapatilla, talón, dedos y pasador; dependiendo de la máquina pueden tener resortes y protectores de dedos, además podemos mencionar en el caso de la máquina plana que existen diversos tipos de pie y su utilización depende de la operación a desarrollar; en el caso del pie universal debe ser acorde con el tipo de material que se trabaja. Generalmente el material utilizado en los pies es acero templado.
+    p.mb-5(data-aos="fade-right") Las partes del prensatelas son: vástago, zapatilla, talón, dedos y pasador. Dependiendo de la máquina, puede incorporar resortes y protectores de dedos. En las máquinas planas existen diversos tipos de prensatelas, cuya utilización depende de la operación que se vaya a realizar. En el caso del prensatelas universal, este debe corresponder al tipo de material que se trabaja. Generalmente, los prensatelas se fabrican en acero templado.
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
@@ -201,7 +201,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-12 
                 h4.mb-3 La caja bobina
-                p.mb-0 Va dentro del gancho rotatorio y la componen varias partes, en la máquina plana son:] cuerpo, palanca del pestillo, resorte del pestillo, muelle de tensión, tornillo retenedor del muelle de tensión, tornillo sujetador de muelle auxiliar, muelle auxiliar. El buen estado de la caja bobina depende del cuidado, por eso se deben evitar golpes, caídas y contacto con sustancias que aumenten su oxidación.
+                p.mb-0 Va dentro del gancho rotatorio y la componen varias partes, en la máquina plana son: cuerpo, palanca del pestillo, resorte del pestillo, muelle de tensión, tornillo retenedor del muelle de tensión, tornillo sujetador de muelle auxiliar, muelle auxiliar. El buen estado de la caja bobina depende del cuidado, por eso se deben evitar golpes, caídas y contacto con sustancias que aumenten su oxidación.
           .tarjeta.color-a.p-4(titulo="3. Corchete")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -211,12 +211,12 @@
             .row.justify-content-center.align-items-center
               .col-lg-12 
                 h4.mb-3 Extensor
-                p.mb-0 Este elemento mecánico es utilizado la mayoría de las veces como auxiliar de los looper y corchetes, para formar varios tipos de puntadas de diferentes series.
-          .tarjeta.color-a.p-4(titulo="5. Looper")
+                p.mb-0 Este elemento mecánico es utilizado la mayoría de las veces como auxiliar de los #[em looper] y corchetes, para formar varios tipos de puntadas de diferentes series.
+          .tarjeta.color-a.p-4(titulo="5. <em>Looper</em>")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                h4.mb-3 Looper
-                p.mb-0 Se requiere para formar la puntada en la fileteadora, la recubridora, cerradora de codo, multi agujas, empretinadora, entre otras. Puede variar su posición y cantidad a usar, según el tipo de máquina y puntada. Además del enhebrado se debe revisar el estado de su punta la cual podría producir fallas en la costura.
+                h4.mb-3 #[em Looper]
+                p.mb-0 Se requiere para formar la puntada en la fileteadora, la recubridora, cerradora de codo, multiagujas, empretinadora, entre otras. Puede variar su posición y cantidad a usar, según el tipo de máquina y puntada. Además del enhebrado se debe revisar el estado de su punta la cual podría producir fallas en la costura.
           .tarjeta.color-a.p-4(titulo="6. Recubridor")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -249,7 +249,7 @@
             img(src='@/assets/curso/tema1/14.svg', alt='')
           .col-lg-7
             .bg5.p-4
-              p.mb-0.text-white.mx-lg-4.mt-lg-3.mb-lg-3 Esta norma internacional clasifica, designa, describe e ilustra las diversas puntadas que se utilizan en las costuras cosidas a mano y a máquina, lo que facilita su identificación en los diversos tipos de producción general y enfocada a la industria de la moda. Esta norma tiene el equivalente militar que es el Federal Standar 7515-a el cual define los estándares para la fabricación de uniformes militares y el estándar ASTM D6193 que define el estándar para la confección de prendas industriales.
+              p.mb-0.text-white.mx-lg-4.mt-lg-3.mb-lg-3 Esta norma internacional clasifica, designa, describe e ilustra las diversas puntadas que se utilizan en las costuras cosidas a mano y a máquina, lo que facilita su identificación en los diversos tipos de producción general y enfocada a la industria de la moda. Esta norma tiene el equivalente militar que es el Federal Standard 7515-a el cual define los estándares para la fabricación de uniformes militares y el estándar ASTM D6193 que define el estándar para la confección de prendas industriales.
         p.mb-0.mt1 En esta norma las diferentes puntadas se agruparon en series por centena según correspondía a la formación de lazada, y a cada puntada en particular le corresponde un consecutivo.
 
     .cont_5_1.mt-4(data-aos="fade-right").mb-4
@@ -304,7 +304,7 @@
                   img.img-t.img-a.mtop.rot(src='@/assets/curso/tema1/up.svg' alt="")
                 .col-lg-10
                   h5.mb-3.txp Serie 400
-              p.mb-0.txp Puntada de cadeneta doble o múltiple, formada por aguja y looper; pertenecen a esta serie las puntadas realizadas en la máquina fileteadora, cerradora de codo, empretinadora y recubridora. Desarrollan la puntada 401. En el caso de la recubridora además puede realizar la puntada 406 al enhebrar dos agujas y 407 al enhebrar las tres agujas.
+              p.mb-0.txp Puntada de cadeneta doble o múltiple, formada por aguja y #[em looper]; pertenecen a esta serie las puntadas realizadas en la máquina fileteadora, cerradora de codo, empretinadora y recubridora. Desarrollan la puntada 401. En el caso de la recubridora además puede realizar la puntada 406 al enhebrar dos agujas y 407 al enhebrar las tres agujas.
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
             .crd_hover_txt--img
@@ -336,7 +336,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        p.mb-4 Esta norma clasifica e ilustra las secciones trasversales de los materiales y clasifica los tipos de costuras cosidas; es necesario consultar esta norma junto con la ISO 4915.
+        p.mb-4 Esta norma clasifica e ilustra las secciones transversales de los materiales y clasifica los tipos de costuras cosidas; es necesario consultar esta norma junto con la ISO 4915.
         .bg6.p-4.p-lg-4
           p.mb-0.mx-lg-4.mt-lg-1 Se puede desarrollar la misma costura en diferentes máquinas que trabajan una serie de puntadas diferentes, a su vez, se debe tener en cuenta la operación para seleccionar el tipo de costura acorde al diseño y patronaje especificado, un caso es la operación de sesgar un escote, que se puede realizar en máquina plana y máquina recubridora.
       .col-lg-4.d-none.d-lg-block

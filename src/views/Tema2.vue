@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Mantenimiento máquinas de confección
+      h1 Mantenimiento en máquinas de confección
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")       
       .col-lg-12
@@ -18,7 +18,7 @@
 
     separador
     #t_2_1.titulo-segundo.mb-5
-      h2 2.1 Partes, mecanismos y funciones de las máquinas de confección
+      h2 2.1 Clasificación del mantenimiento en máquinas de confección
     
     p.mb-5(data-aos="fade-left") Es posible establecer diferentes clasificaciones de acuerdo con la función y etapa que cumpla dentro del proceso productivo:
 
@@ -30,7 +30,7 @@
       .col-lg-8
         p.mb-4 El mantenimiento correctivo es el que se realiza durante el proceso de producción y a corto plazo, da una solución en el mínimo de tiempo y la máquina sigue trabajando.
         .bg7.p-4.p-lg-5
-          p.mb-0.mx-lg-2.mt-lg-1 Para realizar un adecuado mantenimiento correctivo, se debe diagnosticar la causa del daño, para lo cual se pueden utilizar técnicas como los 5 porqués y el diagrama de causa y efecto, que se estudiará posteriormente y la técnica de SMED una herramienta de mejoramiento continuo que se aplica para el cambio de una máquina, en el montaje de una producción con el fin de reducir el tiempo muerto.
+          p.mb-0.mx-lg-2.mt-lg-1 Para realizar un adecuado mantenimiento correctivo, se debe diagnosticar la causa del daño, para lo cual se pueden utilizar técnicas como los 5 porqués y el diagrama de causa y efecto, que se estudiará posteriormente y la técnica de #[em SMED] una herramienta de mejoramiento continuo que se aplica para el cambio de una máquina, en el montaje de una producción con el fin de reducir el tiempo muerto.
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
     
@@ -44,11 +44,13 @@
           .col-lg-7
             .bg8.p-lg-5.p-4.cen
               p.mb-0.text-white Las causas pueden ser ocasionadas por fallas del equipo, en la preparación y ajuste de la maquinaria, el trabajo en vacío o paros menores, velocidad reducida, defectos en el proceso de confección y pérdidas por arranque.
-        p.mb-0.mt2 Las actividades complejas de mantenimiento con cierto grado de dificultad, necesarias para corregir la falla son realizadas por el equipo especializado en mantenimiento. Algunas de las correcciones más comunes son la sincronización de los tiempos en las máquinas, el ajuste de la altura de dientes, el ajuste de la altura de la barra, el cambio de piezas como el gancho rotatorio, loopers, barras de pie prénsatela o aguja y sistema tensor.
+        p.mb-0.mt2 Las actividades complejas de mantenimiento, con cierto grado de dificultad y necesarias para corregir la falla, son realizadas por personal especializado. Algunas de las correcciones más comunes son la sincronización de los tiempos de las máquinas, el ajuste de la altura de los dientes de arrastre, el ajuste de la altura de las barras y el cambio de piezas como el gancho rotatorio, los #[em loopers], la barra de prensatela, la barra de aguja y el sistema tensor.
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Mantenimiento preventivo
+    
+    p.mb-4 De acuerdo con los procesos de mejora continua, el mantenimiento preventivo es anticipado a la presentación de la falla; debe ser realizado con la integración de todo el personal y las áreas, en este proceso gana relevancia la necesidad del mantenimiento autónomo, por consiguiente, es necesario capacitar al personal para lograrlo. En la siguiente tabla se observan los pasos del mantenimiento autónomo.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -150,15 +152,15 @@
       .col-lg-4.d-none.d-lg-block
         img.img-a.img-t(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
       .col-lg-8
-        p.mb-4 Se suele confundir el término puntada y costura, pero se debe tener en cuenta la diferencia; se habla de la puntada como el resultado del enlace de los hilos, y la costura consiste en varias puntadas en un material o puede ser para unir dos o más materiales.
+        p.mb-4 Para la elaboración del plan de mantenimiento es posible hacer uso del diagrama de Gantt el cual permite identificar el uso de los recursos en cada actividad y su duración, lo que permite al supervisor o administrador visualizar adecuadamente los recursos disponibles para este proceso. El plan comprende la descripción de actividades, responsables, día, hora programada, y fecha en que se debe dar su cumplimiento.
         .bg9.p-4.p-lg-5
-          p.mb-0.mx-lg-2 Aclarado lo anterior se necesitaron unas normas para concertar a nivel mundial los diferentes tipos de puntadas y costuras, identificando por medio de letras o de números según cada norma, lo cual facilita la comprensión de la ficha técnica de una máquina o de un producto en cualquier parte del mundo.
+          p.mb-0.mx-lg-2 Una vez elaborado el plan de mantenimiento este debe ser registrado y comunicado al personal de la planta, con el fin de mejorar la comunicación y establecer su seguimiento.
       
     p.mb-4(data-aos="fade-right") Los pasos que comprende el plan de mantenimiento se encuentran especificados a continuación, debe tenerse en cuenta que una vez se cumplen se evalúan y vuelve a iniciar su proceso:
 
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-12
-        ol.lista-ol--cuadro.lista-ol--separador
+        ol.lista-ol--cuadro.lista-ol--separador.mb-0
           li.d-flex
             .lista-ol--cuadro__vineta
               span 1
@@ -186,8 +188,9 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span 7
-            | Programa de mantenimiento planeado: aplicación de mejorar continua (KAIZEN).
-
+            | Programa de mantenimiento planeado: aplicación de mejora continua (#[em KAIZEN]).
+          li.d-flex.mb-0
+            .lista-ol
 
     separador
     #t_2_3.titulo-segundo.mb-5
@@ -221,7 +224,6 @@
                     p.mb-0 #[b Piqueteadora:] corta en los orillos del patrón en cartón cartulina para indicar puntos específicos del molde.
             .row.justify-content-center.align-items.p-2.mb-0
               .col-lg-8
-                h3.mb-4 Áreas de patronaje, trazo y corte
                 ul.lista-ul.mb-0
                   li.d-flex.mb-1
                     i.fas.fa-bolt
@@ -231,10 +233,9 @@
                     p.mb-0 #[b Juego de reglas:] comprenden normalmente regla larga de 80 cm, escuadra a 60° de 54 cm, curva de cadera, curva de tiro, curva de sisa, sismómetro o de gota, curva francesa. También se usan curvígrafos y reglas en T.
                   li.d-flex.mb-0
                     i.fas.fa-bolt
-                    p.mb-0 #[b Punzón metálico:] para señalar puntos ubicación de pinzas, por ejemplo.
+                    p.mb-0 #[b Punzón metálico:] para señalar puntos de ubicación de pinzas, por ejemplo.
             .row.justify-content-center.align-items.p-2.mb-0
               .col-lg-8
-                h3.mb-4 Áreas de patronaje, trazo y corte
                 ul.lista-ul.mb-0
                   li.d-flex.mb-1
                     i.fas.fa-bolt
@@ -259,10 +260,10 @@
               p.mb-0 #[b Destornilladores de pala:] la parte de la pala debe estar acorde a la medida del tornillo a trabajar, hablamos de pala media para soltar tornillo de barra de pie prénsatela o de soporte de aguja y de pala pequeño para trabajar el tornillo de la caja bobina.
             li.d-flex.mb-3
               i.fas.fa-bolt
-              p.mb-0 #[b Destornilladores tipo bristol con medidas de 1/16” o 1,5 cm:] especiales para los tornillos sujetadores de aguja de fileteadora, recubridora, cerradora entre otras.
+              p.mb-0 #[b Destornilladores tipo #[em bristol] con medidas de 1/16” o 1,6 mm:] especiales para los tornillos sujetadores de aguja de fileteadora, recubridora, cerradora entre otras.
             li.d-flex.mb-3
               i.fas.fa-bolt
-              p.mb-0 #[b Llaves bristol.]
+              p.mb-0 #[b Llaves #[em bristol.]]
             li.d-flex.mb-0
               i.fas.fa-bolt
               p.mb-0 #[b Llaves boca fija.]

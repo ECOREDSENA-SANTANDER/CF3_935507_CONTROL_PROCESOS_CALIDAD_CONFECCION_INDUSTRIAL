@@ -56,13 +56,12 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Mantenimiento máquinas de confección',
+        titulo: 'Mantenimiento en máquinas de confección',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo:
-              'Partes, mecanismos y funciones de las máquinas de confección',
+            titulo: 'Clasificación del mantenimiento en máquinas de confección',
             hash: 't_2_1',
           },
           {
@@ -130,7 +129,7 @@ export default {
     {
       termino: 'Control visual',
       significado:
-        'técnica de comunicación donde la información se transmite por medio de señales en los que se utilice el sentido de la vista, con el fin de controlar algún proceso. También conocido como Andón, en japones traduce lámpara.',
+        'técnica de comunicación donde la información se transmite por medio de señales en los que se utilice el sentido de la vista, con el fin de controlar algún proceso. También conocido como <em>Andón</em>, en japonés traduce lámpara.',
     },
     {
       termino: '<em>Kaizen</em>',
@@ -150,7 +149,7 @@ export default {
     {
       termino: '<em>SMED</em>',
       significado:
-        'del inglés Single Minute Exchange of Die, es decir, el cambio de una herramienta o equipo, en un solo digito de tiempo.',
+        'del inglés <em>Single Minute Exchange of Die</em>, es decir, el cambio de una herramienta o equipo, en un solo digito de tiempo.',
     },
     {
       termino: 'Tiempos muertos',
@@ -165,7 +164,53 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alfaomega (2009). Mantenimiento, planeación, ejecución y control.',
+      link:
+        'https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/mantenimiento-planeacion-ejecucion-y-control?location=2',
+    },
+    {
+      referencia: 'American & Efrird, Inc. (2009) Stich Type Matrix Spanish.',
+      link:
+        'http://www.amefird.com/wp-content/uploads/2009/10/Stitch-Type-Matrix-Spanish.pdf',
+    },
+    {
+      referencia:
+        'Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5s, SMED y Poka Yoke en procesos de mejoramiento continuo. Tecnura, 10(20), 139-148.',
+      link: 'https://doi.org/10.14483/22487638.6255',
+    },
+    {
+      referencia:
+        'Barretto. (s.f.) Técnicas de indumentaria I -Puntadas y pespuntes. Facultad de arquitectura, diseño y urbanismo. Argentina.',
+      link:
+        'http://cursos.fadu.uba.ar/apuntes/Indumentaria%20I/unidad%20teorica%20n%204/18%20-tecnologia%20del%20sector%20costura%201%20Puntadas%20y%20pespuntes.pdf',
+    },
+    {
+      referencia: 'Carvajal, F. (2012) Manual Técnico.',
+      link: '',
+    },
+    {
+      referencia: 'CIDEP (2012) Manual de Corte y Confección.',
+      link: '',
+    },
+    {
+      referencia:
+        'Espin, F. (2013). Técnica SMED Reducción del tiempo preparación. 3Ciencias.',
+      link:
+        'https://www.3ciencias.com/wp-content/uploads/2013/05/TECNICA-SMED.pdf',
+    },
+    {
+      referencia:
+        'Rápida Suministros Industriales, (s.f.) Recambios y accesorios',
+      link: 'http://www.rapida.com/otros-guantes-alfileres-pesas.html',
+    },
+    {
+      referencia: 'SENA (1982), Las puntadas.',
+      link: 'https://hdl.handle.net/11404/3998',
+    },
+    {
+      referencia:
+        'Villegas, O., et al (2018, octubre 24 -26). Como el mantenimiento productivo total (TPM) te ayuda a mejorar la productividad. Congreso Internacional de Investigación Academia Journals. Los Mochis, Sinaloa, México.',
       link: '',
     },
   ],
@@ -203,7 +248,7 @@ export default {
         },
         {
           nombre: 'Vilma Lucía Perilla Méndez',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Gestión Empresarial - Regional Distrito Capital',
         },
         {
@@ -244,14 +289,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Yineth González Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
