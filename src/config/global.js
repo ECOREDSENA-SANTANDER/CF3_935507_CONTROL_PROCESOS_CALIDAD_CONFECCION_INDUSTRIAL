@@ -103,7 +103,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF3_935507_DU.zip',
+        download: 'downloads/935507_CF03_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -117,14 +117,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
       termino: 'Control visual',
