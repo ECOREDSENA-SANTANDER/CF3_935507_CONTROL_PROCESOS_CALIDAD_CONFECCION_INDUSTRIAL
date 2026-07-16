@@ -226,13 +226,13 @@ export default {
           nombre: 'Rafael Nelftalí Lizcano Reyes',
           cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Sandra Cecilia Gutiérrez',
           cargo: 'Experta temática',
           centro:
-            'CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Vilma Lucía Perilla Méndez',
@@ -243,7 +243,7 @@ export default {
           nombre: 'Oscar Andrés Fernández Urrego',
           cargo: 'Evaluador instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica – CENIGRAF - Regional Bogotá',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Julieth Paola Vital López',
